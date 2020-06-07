@@ -35,7 +35,6 @@ LatPos<-allFile$iState[[2]]
 x<-LongPos
 x1<-LatPos
 
-#-----------------------Tobias (Remove nan)-------------------------------------
 # >>>> Remove columns with more than 50% NaN:
 nan = rep(NA,length(x[1,]))
 y = matrix(data = NA, nrow = length(x[,1]), 1) # Data Cleaned from "50% NA" columns
